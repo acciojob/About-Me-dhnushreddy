@@ -1,65 +1,10 @@
-
-/* General Reset */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   line-height: 1.6;
 }
-
-/* Header Section */
-.header {
-  background-color: #007BFF;
-  color: white;
-  text-align: center;
-  padding: 20px;
-}
-
-.header h1 span {
-  color: #FFD700;
-}
-
-/* About Section */
-.about {
-  padding: 20px;
-  background: #f9f9f9;
-}
-
-.about h2 {
-  color: #333;
-}
-
-/* Skills Section */
-.skills {
-  padding: 20px;
-  background: #e9ecef;
-}
-
-.skills h2 {
-  color: #007BFF;
-}
-
-.skills ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.skills li {
-  background: #007BFF;
-  color: white;
-  padding: 10px;
-  margin: 5px 0;
-  border-radius: 5px;
-}
-
-/* Footer Section */
-.footer {
-  text-align: center;
-  padding: 10px;
-  background: #333;
-  color: white;
-}
-
-.footer a {
-  color: #FFD700;
-  text-decoration: none;
+.section1{
+	height:80%;
+	width:80%
+	border:2px solid black;
 }

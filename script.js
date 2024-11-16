@@ -10,5 +10,5 @@ const skillsList = document.getElementById("skills-list");
 skills.forEach(skill => {
   const listItem = document.createElement("li");
   listItem.textContent = skill;
-  skillsList.appendChild(listItem);
+  skillsList.appendChild(listItem);https://www.svgrepo.com/show/345221/three-dots.svg
 });
