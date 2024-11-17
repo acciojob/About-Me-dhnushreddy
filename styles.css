@@ -1,17 +1,75 @@
+/* General reset and responsive font */
+* {
+  box-sizing: border-box;
+}
 body {
-  margin: 0;
+  height: 90vh;
+  width: 90vw;
   font-family: Arial, sans-serif;
-  line-height: 1.6;
+  font-size: clamp(12px, 2vw, 18px);
+	background-color: red;
 }
 
-.main{
-		height:80%;
-		width:80%
-		border:2px solid black;
-	}
+/* Main container */
+.main {
+  height: 90%; /* Adjust height for responsive design */
+  width: 90% auto; /* Use relative width */
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  
 }
-.section1{
-	height:80%;
-	width:80%
-	border:2px solid black;
+
+/* Section styles */
+.section1,
+.section2 {
+  height: auto; /* Adjust height for dynamic content */
+  flex: 1 1 45%; /* Responsive flex sizing */
+  padding: 0.5rem;
+}
+
+/* Profile container */
+.profile {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: blue;
+  border-radius: 10px;
+  color: white;
+}
+
+/* Profile Image */
+.profileImage {
+  flex: 1 1 40%; /* Adjust size dynamically */
+  height: 150px; /* Set a fixed height for the image */
+  background-image: url("");
+  border: 2px solid yellow;
+  border-radius: 10px;
+}
+
+/* Profile Data */
+.profileData {
+  flex: 1 1 55%; /* Adjust size dynamically */
+  padding: 1rem;
+}
+
+/* Skills Section */
+.skill {
+  h2 {
+    text-align: center;
+    text-decoration: underline;
+  }
+  margin-top: 1rem;
+  background-color: lightgray;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+/* Responsive Section2 */
+.aboutMe {
+  h2 {
+    text-align: center;
+    text-decoration: underline;
+  }
+  height: auto;
 }
