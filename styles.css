@@ -1,9 +1,8 @@
 /* General reset and responsive font */
 * {
-  box-sizing: border-box;
-	padding:0px;
-	margin:0px;
-}
+
+  padding: 0;
+  box-sizing: border-box; /* Ensures padding and borders are included in the element's total width/height */
 }
 body {
  
@@ -14,7 +13,6 @@ body {
 
 /* Main container */
 .main {
-  height:auto; /* Adjust height for responsive design */
   width: 90% auto; /* Use relative width */
   display: flex;
   flex-wrap: wrap;
