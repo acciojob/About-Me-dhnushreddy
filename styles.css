@@ -1,22 +1,24 @@
 /* General reset and responsive font */
 * {
   box-sizing: border-box;
+	padding:0px;
+	margin:0px;
+}
 }
 body {
-  height: 90vh;
-  width: 90vw;
+ 
   font-family: Arial, sans-serif;
   font-size: clamp(12px, 2vw, 18px);
-	background-color: red;
+  background-color: lightgray;
 }
 
 /* Main container */
 .main {
-  height: 90%; /* Adjust height for responsive design */
+  height:auto; /* Adjust height for responsive design */
   width: 90% auto; /* Use relative width */
   display: flex;
   flex-wrap: wrap;
-  border-radius: 10px;
+  background-color:#fff;
   
 }
 
@@ -33,9 +35,8 @@ body {
   height: auto;
   display: flex;
   flex-wrap: wrap;
-  background-color: blue;
-  border-radius: 10px;
   color: white;
+	padding:1rem;
 }
 
 /* Profile Image */
@@ -44,23 +45,21 @@ body {
   height: 150px; /* Set a fixed height for the image */
   background-image: url("");
   border: 2px solid yellow;
-  border-radius: 10px;
 }
 
 /* Profile Data */
 .profileData {
   flex: 1 1 55%; /* Adjust size dynamically */
   padding: 1rem;
+  color:black;
 }
 
 /* Skills Section */
 .skill {
   h2 {
-    text-align: center;
     text-decoration: underline;
   }
   margin-top: 1rem;
-  background-color: lightgray;
   padding: 1rem;
   border-radius: 5px;
 }
@@ -68,7 +67,6 @@ body {
 /* Responsive Section2 */
 .aboutMe {
   h2 {
-    text-align: center;
     text-decoration: underline;
   }
   height: auto;
